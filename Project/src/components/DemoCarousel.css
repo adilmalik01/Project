@@ -1,0 +1,94 @@
+/* components/DemoCarousel.module.css */
+@font-face {
+    font-family: poppinsExtraBold;
+    src: url("/public/fonts/Poppins-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: fontawesome;
+    src: url("/public/fonts/Poppins-Medium.ttf");
+}
+
+.fontawesome {
+    font-family: fontawesome;
+}
+
+.poppinEbold {
+    font-family: poppinsExtraBold;
+}
+
+
+
+
+.carouselContainer {
+    max-width: 100%;
+    min-height: 80vh;
+    /* padding: 20px; */
+}
+
+
+@media (max-width:660px) {
+    .carouselContainer {
+        padding: 20px 0;
+    }
+
+    .carouselContainer {
+        height: 200vh;
+    }
+
+    .rightSideSlide {
+        height: 90vh;
+    }
+
+    .rightSideSlide div {
+        border-radius: 23% 77% 92% 8% / 58% 53% 47% 42%;
+
+        /* These are ADDITIONAL styles - add them if you want an object exactly like in the demo above */
+        width: 400px;
+        height: 500px;
+    }
+}
+
+
+@media (max-width:770px) {
+    .carouselContainer {
+        height: 150vh;
+        justify-content: center;
+    }
+
+    .rightSideSlide {
+        height: 190vh;
+        width: 100%;
+    }
+
+    .bgImage {
+        width: 60% !important;
+        height: 30vh !important;
+    }
+
+}
+
+
+
+.carousel {
+    height: 100%;
+}
+
+.CustomDiv {
+    width: 100%;
+    height: 100vh;
+}
+
+.image {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.bgImage {
+    /* background-color: aqua; */
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    background: url("/public/puff-2.jpg");
+    background-position: center;
+    background-size: cover;
+}

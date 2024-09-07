@@ -1,0 +1,16 @@
+@font-face {
+    font-family: poppinsExtraBold;
+    src: url("/public/fonts/Poppins-ExtraBold.ttf");
+}
+@font-face {
+    font-family: fontawesome;
+    src: url("/public/fonts/Poppins-Medium.ttf");
+}
+
+.fontawesome{
+    font-family: fontawesome;
+}
+
+.poppinEbold {
+    font-family: poppinsExtraBold;
+}
